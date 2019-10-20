@@ -1,1 +1,1 @@
-# layout_ui_AppStore
+# layout AppStore Look and feel with UICollectionView
