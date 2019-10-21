@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB7E3584235D554F00891D4A /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E3583235D554F00891D4A /* ArcadeViewController.swift */; };
+		BB7E3586235D555E00891D4A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E3585235D555E00891D4A /* GameViewController.swift */; };
+		BB7E3588235D556800891D4A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E3587235D556800891D4A /* SearchViewController.swift */; };
+		BB7E3683235D56AA00891D4A /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E3682235D56AA00891D4A /* SelfConfiguringCell.swift */; };
+		BB7E377E235D587600891D4A /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E377D235D587600891D4A /* FeaturedCell.swift */; };
 		BBAA09AE235CA9DA00ED4DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA09AD235CA9DA00ED4DC9 /* AppDelegate.swift */; };
 		BBAA09B0235CA9DA00ED4DC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA09AF235CA9DA00ED4DC9 /* SceneDelegate.swift */; };
 		BBAA09B2235CA9DA00ED4DC9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA09B1235CA9DA00ED4DC9 /* RootViewController.swift */; };
@@ -39,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB7E3583235D554F00891D4A /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		BB7E3585235D555E00891D4A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB7E3587235D556800891D4A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BB7E3682235D56AA00891D4A /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
+		BB7E377D235D587600891D4A /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
 		BBAA09AA235CA9DA00ED4DC9 /* LayoutUIAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutUIAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAA09AD235CA9DA00ED4DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBAA09AF235CA9DA00ED4DC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,8 +119,10 @@
 			children = (
 				BBAA09AD235CA9DA00ED4DC9 /* AppDelegate.swift */,
 				BBAA09AF235CA9DA00ED4DC9 /* SceneDelegate.swift */,
-				BBAA09B1235CA9DA00ED4DC9 /* RootViewController.swift */,
 				BBAA09DD235D505000ED4DC9 /* BundleExtension.swift */,
+				BB7E3682235D56AA00891D4A /* SelfConfiguringCell.swift */,
+				BB7E377D235D587600891D4A /* FeaturedCell.swift */,
+				BBAA09E8235D54A400ED4DC9 /* ViewController */,
 				BBAA09E7235D541A00ED4DC9 /* Model */,
 				BBAA09B3235CA9DA00ED4DC9 /* Main.storyboard */,
 				BBAA09B6235CA9DC00ED4DC9 /* Assets.xcassets */,
@@ -146,6 +158,17 @@
 				BBAA09E5235D540B00ED4DC9 /* App.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BBAA09E8235D54A400ED4DC9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA09B1235CA9DA00ED4DC9 /* RootViewController.swift */,
+				BB7E3583235D554F00891D4A /* ArcadeViewController.swift */,
+				BB7E3587235D556800891D4A /* SearchViewController.swift */,
+				BB7E3585235D555E00891D4A /* GameViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +306,14 @@
 				BBAA09E4235D53CE00ED4DC9 /* Section.swift in Sources */,
 				BBAA09B2235CA9DA00ED4DC9 /* RootViewController.swift in Sources */,
 				BBAA09AE235CA9DA00ED4DC9 /* AppDelegate.swift in Sources */,
+				BB7E3588235D556800891D4A /* SearchViewController.swift in Sources */,
 				BBAA09E6235D540B00ED4DC9 /* App.swift in Sources */,
+				BB7E3586235D555E00891D4A /* GameViewController.swift in Sources */,
 				BBAA09B0235CA9DA00ED4DC9 /* SceneDelegate.swift in Sources */,
+				BB7E377E235D587600891D4A /* FeaturedCell.swift in Sources */,
+				BB7E3683235D56AA00891D4A /* SelfConfiguringCell.swift in Sources */,
 				BBAA09DE235D505000ED4DC9 /* BundleExtension.swift in Sources */,
+				BB7E3584235D554F00891D4A /* ArcadeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
