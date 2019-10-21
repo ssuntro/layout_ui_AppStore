@@ -11,6 +11,7 @@ import UIKit
 class RootViewController: UIViewController {
     let sections = Bundle.main.decode([Section].self, from: "appStore.json")
     var collectionView: UICollectionView!
+    var dataSource: UICollectionViewDiffableDataSource<Section, App>?
     override func viewDidLoad() {
         super.viewDidLoad()
         
